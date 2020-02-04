@@ -1,0 +1,20 @@
+ion-header ion-toolbar::shadow {
+  --background: navy;
+  }
+  .title{
+      color: white;
+      text-align: center;
+  }
+  ion-content {
+      --background: url(../../assets/img/1.jpg);
+      // --background: white;
+  }
+  .card{
+    background-color: navy;
+    width: 160px;
+    height: 85px;
+    justify-content: c;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+  }

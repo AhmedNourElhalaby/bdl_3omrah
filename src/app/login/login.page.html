@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button color="light" defaultHref="/start"></ion-back-button>
+      </ion-buttons>
+    <ion-title center class="title">login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+    <form class="list-form">
+      <ion-item class="form-color">
+        
+          <ion-label position="floating" class="color">
+            Email  
+          </ion-label>
+          <ion-input type="text" [(ngModel)]="frmData.email" name="username"></ion-input>
+        
+      </ion-item>
+  
+      <ion-item class="form-color">
+        <div class="form-color">
+          <ion-label position="floating">
+            Password
+          </ion-label>
+          <ion-input type="password" [(ngModel)]="frmData.password" name="password"></ion-input>
+        </div>
+      </ion-item>
+    </form>
+  
+</ion-content>
+<ion-footer>
+  <ion-row class="footer">
+    <ion-col no-padding>
+      <ion-button color="navy" expand="full" href="/home" routerDirection="forward" class="button-footer">LOGIN</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-footer>

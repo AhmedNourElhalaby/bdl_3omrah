@@ -1,0 +1,7 @@
+{
+  "name": "3omrah",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

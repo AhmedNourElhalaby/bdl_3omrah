@@ -1,0 +1,27 @@
+	ion-header ion-toolbar::shadow {
+		--background: navy;
+    }
+    .title{
+        color: white;
+        text-align: center;
+    }
+    ion-content {
+        --background: url(../../assets/img/1.jpg);
+    }
+    .form-color {
+      --background: transparent !important;
+      border-color: black;
+     }  
+
+     ion-label {
+       color: white !important;
+     }
+     ion-input {
+       color: white;
+     }
+     .footer {
+      background-color: navy;
+    }
+    .butoon{
+      background-color: navy; 
+    }

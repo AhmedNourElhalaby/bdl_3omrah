@@ -1,0 +1,38 @@
+:host { // this is the page itself
+	
+	ion-header ion-toolbar::shadow {
+		--background: navy;
+    }
+    .title{
+        color: white;
+        text-align: center;
+    }
+    .button-footer{
+        width: 100%;
+    }
+    ion-content {
+        --background: url(../../assets/img/1.jpg);
+    }
+    .logo {
+    
+        border-radius: 50%;
+        height: 184px;
+        text-align: center;
+        width: 184px;
+        display: table;
+        margin: auto;
+        margin-top: 60px;
+    
+        img {
+          margin-top: 26px;
+          height: 184px;
+          width: 184px;
+        }
+      }
+      .footer {
+          background-color: navy;
+      }
+      ion-button {
+        margin: 0;
+      }
+}
